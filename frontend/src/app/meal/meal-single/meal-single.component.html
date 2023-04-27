@@ -1,0 +1,55 @@
+<div class="grid-container">
+    <h1 class="mat-h1">{{mealInfo?.name}} </h1>
+    <mat-grid-list cols="3" rowHeight="1:3">
+      <mat-grid-tile  [colspan]="2" [rowspan]="1">
+        <mat-card class="dashboard-card">
+          <mat-card-header>
+            <mat-card-title>
+                Ingredients
+            </mat-card-title>  
+          </mat-card-header>
+          <mat-card-content class="dashboard-card-content">
+            <div class="table-responsive">
+            <table class=" table align-middle table-bordered mb-0">
+                <thead class="text-white">
+                    <tr>
+                    <th>Food</th>
+                    <th>Amount in Grams</th>
+                    <th>KCAL</th>
+                    <th>Carb</th>
+                    <th>Fat</th>
+                    <th>Protein</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let f of mealInfo?.foods" class="text-white">
+                        <td>{{f.name}}</td>
+                        <td>{{f.amount}}</td>
+                        <td>{{f.kcal}}</td>
+                        <td>{{f.carb}}</td>
+                        <td>{{f.fat}}</td>
+                        <td>{{f.protein}}</td>
+                      </tr>
+                        <tr class="text-white">
+                            <td>Total</td>
+                            <td>{{mealInfo?.amount}}</td>
+                            <td>{{mealInfo?.kcal}}</td>
+                            <td>{{mealInfo?.carb}}</td>
+                            <td>{{mealInfo?.fat}}</td>
+                            <td>{{mealInfo?.protein}}</td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+
+
+    </mat-grid-list>
+  </div>
+  
+<!-- 
+
+
+ -->

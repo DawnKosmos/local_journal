@@ -1,0 +1,104 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Food</h1>
+  <mat-grid-list cols="2" rowHeight="600px">
+    <mat-grid-tile  [colspan]="1" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>
+            Last Meals
+            <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu" xPosition="before">
+              <button mat-menu-item>
+                
+              </button>
+              
+            </mat-menu>
+          </mat-card-title>
+
+
+        </mat-card-header>
+        <mat-card-content class="dashboard-card-content">
+          <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered mx-0 mt-2">
+                <thead>
+                    <tr class="text-white">
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">KCAL</th>
+                        <th scope="col">Carb</th>
+                        <th scope="col">Fat</th>
+                        <th scope="col">Protein</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let m of latestMeals">
+                    <td ><a class="text-danger" [routerLink]="'/meal/' + m.meal_id">{{m.name}}</a></td>       
+                    <td>{{m.unix.Time}}</td>
+                    <td>{{m.kcal}}</td>
+                    <td>{{m.carb}}</td>
+                    <td>{{m.fat}}</td>
+                    <td>{{m.protein}}</td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="d-flex align-items">
+          <div class="mx-auto">
+              <button type="button" class="btn btn-light" routerLink="/food/new">New Meal</button>
+          </div>
+      </div>
+
+
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile  [colspan]="1" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>
+            Last Days
+            <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu" xPosition="before">
+              <button mat-menu-item>Expand</button>
+            </mat-menu>
+          </mat-card-title>
+
+          
+        </mat-card-header>
+        <mat-card-content class="dashboard-card-content">
+          <mat-card-content class="dashboard-card-content">
+            <div class="table-responsive">
+              <table class="table text-start align-middle table-bordered mx-0 mt-2">
+                  <thead>
+                      <tr class="text-white">
+                          <th scope="col">Day</th>
+                          <th scope="col">KCAL</th>
+                          <th scope="col">Carb</th>
+                          <th scope="col">Fat</th>
+                          <th scope="col">Protein</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td><a href="">Sonntag</a></td>
+                          <td>612</td>
+                          <td>30</td>
+                          <td>50</td>
+                          <td>30</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+  
+  
+          </mat-card-content>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+</div>

@@ -1,0 +1,213 @@
+[
+	{
+	    "id": 0,
+		"name": "Cashew",
+		"kcal": 568,
+		"carb": 31,
+		"fat": 42,
+		"protein": 18
+	},
+	{
+		"id": 1,
+		"name": "Peas",
+		"kcal": 287,
+		"carb": 42,
+		"fat": 2,
+		"protein": 24
+	},
+	{
+		"id": 2,
+		"name": "Pea Protein Powder",
+		"kcal": 402,
+		"carb": 1,
+		"fat": 6,
+		"protein": 85
+	},
+	{
+		"id": 3,
+		"name": "Peanuts",
+		"kcal": 576,
+		"carb": 29.8,
+		"fat": 48,
+		"protein": 7.5
+	},
+	{
+		"id": 4,
+		"name": "Oats",
+		"kcal": 354,
+		"carb": 60,
+		"fat": 7,
+		"protein": 13
+	},
+	{
+		"id": 5,
+		"name": "Millet",
+		"kcal": 357,
+		"carb": 69,
+		"fat": 4,
+		"protein": 11
+	},
+	{
+		"id": 6,
+		"name": "Chicken",
+		"kcal": 109,
+		"fat": 1,
+		"protein": 23
+	},
+	{
+		"id": 7,
+		"name": "Carrot",
+		"kcal": 33,
+		"carb": 7,
+		"protein": 1
+	},
+	{
+		"id": 8,
+		"name": "Potato",
+		"kcal": 71,
+		"carb": 15,
+		"protein": 2
+	},
+	{
+		"id": 9,
+		"name": "Chickpeas",
+		"kcal": 310,
+		"carb": 44,
+		"fat": 6,
+		"protein": 19
+	},
+	{
+		"id": 10,
+		"name": "Kidney Beans",
+		"kcal": 325,
+		"carb": 40,
+		"fat": 2,
+		"protein": 24
+	},
+	{
+		"id": 11,
+		"name": "Lowfat Quark",
+		"kcal": 75,
+		"carb": 4,
+		"protein": 14
+	},
+	{
+		"id": 12,
+		"name": "Corn Grits",
+		"kcal": 354,
+		"carb": 74,
+		"fat": 1,
+		"protein": 9
+	},
+	{
+		"id": 13,
+		"name": "Almonds",
+		"kcal": 589,
+		"carb": 6,
+		"fat": 53,
+		"protein": 24
+	},
+	{
+		"id": 14,
+		"name": "Milk",
+		"kcal": 64,
+		"carb": 5,
+		"fat": 3.5,
+		"protein": 3
+	},
+	{
+		"id": 15,
+		"name": "Pasta",
+		"kcal": 352,
+		"carb": 68,
+		"fat": 3,
+		"protein": 12
+	},
+	{
+		"id": 16,
+		"name": "Paprika",
+		"kcal": 37,
+		"carb": 6,
+		"fat": 1,
+		"protein": 1
+	},
+	{
+		"id": 17,
+		"name": "Quinoa",
+		"kcal": 366,
+		"carb": 64,
+		"fat": 6,
+		"protein": 13
+	},
+	{
+		"id": 18,
+		"name": "Rice",
+		"kcal": 349,
+		"carb": 78,
+		"fat": 1,
+		"protein": 7
+	},
+	{
+		"id": 19,
+		"name": "Rice Protein",
+		"kcal": 404,
+		"fat": 5,
+		"protein": 90
+	},
+	{
+		"id": 20,
+		"name": "Red Lentils",
+		"kcal": 275,
+		"carb": 42,
+		"fat": 2,
+		"protein": 23
+	},
+	{
+		"id": 21,
+		"name": "Soy Beans",
+		"kcal": 416,
+		"carb": 29,
+		"fat": 17,
+		"protein": 35
+	},
+	{
+		"id": 22,
+		"name": "Sunflower Seeds",
+		"kcal": 643,
+		"carb": 6,
+		"fat": 57,
+		"protein": 24
+	},
+	{
+		"id": 23,
+		"name": "Tofu",
+		"kcal": 144,
+		"carb": 1,
+		"fat": 9,
+		"protein": 16
+	},
+	{
+		"id": 24,
+		"name": "Egg",
+		"kcal": 154,
+		"carb": 1,
+		"fat": 11,
+		"protein": 13
+	},
+	{
+		"id": 25,
+		"name": "Walnut",
+		"kcal": 654,
+		"carb": 11,
+		"fat": 63,
+		"protein": 14
+	},
+	{
+		"id": 26,
+		"name": "Oat Flour",
+		"kcal": 343,
+		"carb": 72,
+		"fat": 1,
+		"protein": 10
+	}
+]
